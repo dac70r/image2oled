@@ -3,6 +3,7 @@ import imageio
 import numpy as np
 
 # declaring variables
+
 row = 0;
 column = 0;
 index = 0;
@@ -13,7 +14,7 @@ b = 0;
 c = 0;
 
 
-im = imageio.imread('too_loud_resized.png') #read image, convert to data and store in array
+im = imageio.imread('too_loud.png') #read image, convert to data and store in array
 print(im.shape) #shows the dimensions of the read image
 
 # print(64*96)
