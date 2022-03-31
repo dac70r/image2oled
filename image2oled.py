@@ -18,14 +18,14 @@ im = imageio.imread('too_loud.png') #read image, convert to data and store in ar
 print(im.shape) #shows the dimensions of the read image
 
 # print(64*96)
-print(im[0][0][0],bin(im[0][0][0]))
-print(im[0][0][1],bin(im[0][0][1]))
-print(im[0][0][2],bin(im[0][0][2]))
+# print(im[0][0][0],bin(im[0][0][0]))
+# print(im[0][0][1],bin(im[0][0][1]))
+# print(im[0][0][2],bin(im[0][0][2]))
 
 
 
-print(a,b,c)
-print(bin(a),bin(b),bin(c))
+# print(a,b,c)
+# print(bin(a),bin(b),bin(c))
 
 print(sum,":",bin(im[0][0][0]).replace("0b", "pixel_data = 16'b"),";")
 
